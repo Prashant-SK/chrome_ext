@@ -1,1 +1,6 @@
-console.log("Chrome ext go");
+console.log("Chrome ext go?");
+
+let paragraphs = document.getElementsByTagName('p');
+for (elt of paragraphs) {
+    elt.style['background-color'] = '#FF00FF';
+}
