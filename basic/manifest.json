@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.cnn.com/*"
+                "https://www.ndtv.com/*"
             ],
             "js": ["content.js"]
         }
