@@ -2,6 +2,7 @@
     "manifest_version": 2,
     "name": "Plant Extension",
     "version": "0.0",
+    "web_accessible_resources": ["plantImages/*.png"],
     "content_scripts": [
         {
             "matches": [
