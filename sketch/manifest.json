@@ -6,6 +6,6 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["sketch.js"]
+      "js": ["p5.js", "sketch.js"]
     }]
 }
