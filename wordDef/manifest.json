@@ -13,8 +13,9 @@
     ],
     "permissions":["tabs"],
     "browser_action": {
+        "default_icon": "open-peeps.png",
         "default_popup": "popup.html",
-        "default_title": "Popup!"
+        "default_title": "WordDefinition"
     }
 
 
