@@ -1,8 +1,3 @@
-console.log("Word Def Chrome Extension running");
+console.log("background script active");
 
-window.addEventListener('mouseup', wordSelected);
-
-function wordSelected() {
-    let selectedText = window.getSelection().toString();
-    console.log(selected);
-}
+chrome.runtime.onMessage.addListener(receiver);
